@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrowIcon {
+  font-size: 40px !important;
+  cursor: pointer;
+}
+
+.avatarIcon {
+  font-size: 26px !important;
+}
