@@ -1,0 +1,32 @@
+.container {
+  position: sticky;
+  bottom: 0;
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lockIcon {
+  font-size: 50px !important;
+  color: lightgrey;
+  cursor: pointer;
+}
+.lockIcon:hover {
+  color: black;
+}
+.iconText {
+  color: rgb(85, 84, 84);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 12px;
+}
