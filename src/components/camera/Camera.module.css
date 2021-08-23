@@ -1,0 +1,66 @@
+@value backgroundBlue from '../common/colors.css';
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.videoIcon {
+  color: white;
+  font-size: 40px !important;
+}
+
+.time {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.iconBox {
+  cursor: pointer;
+}
+.iconBox:hover .iconBtn {
+  color: white;
+}
+.iconBorder:hover > P {
+  width: 65px;
+  height: 65px;
+}
+.iconBox > h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.iconBorder {
+  background-color: backgroundBlue;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.iconBorder,
+.iconBorder > P {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconBorder > P {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-weight: 600;
+  background-color: #fd3838;
+}
+
+.iconBtn {
+  font-size: 40px !important;
+}
