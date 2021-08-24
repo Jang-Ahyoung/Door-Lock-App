@@ -7,11 +7,11 @@ function Bottom() {
     const history = useHistory();
     return (
         <div className={styles.container}>
-            <div className={styles.iconContainer} onClick={() => history.push('/menu')}>
+            <div className={styles.iconContainer} onClick={() => history.push('/menu/camera')}>
                 <Visibility className={styles.lockIcon} />
                 <p className={styles.iconText}>카메라</p>
             </div>
-            <div className={styles.iconContainer}>
+            <div className={styles.iconContainer} onClick={() => history.push('/menu/access')}>
                 <TransferWithinAStation className={styles.lockIcon} />
                 <p className={styles.iconText}>출입 기록</p>
             </div>
