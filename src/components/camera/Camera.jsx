@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import styles from './Camera.module.css';
-import { CameraAlt, Add, ReportProblem } from '@material-ui/icons';
+import { CameraAlt, Add, ReportProblem, Battery80 } from '@material-ui/icons';
 
 function Camera() {
     const [record, setRecord] = useState(false);
     return (
         <div className={styles.container}>
+            <p className={styles.Title}>도어락 카메라</p>
             <div className={styles.video}>
-                <Add className={styles.videoIcon} />
+                <p className={styles.recText}>● rec</p>
+                <Battery80 className={styles.batteryIcon} />
+                <div className={styles.videoBorder}><Add className={styles.videoIcon} /></div>
             </div>
             <p className={styles.time}>2021 / 08 / 05 || 13 : 07 : 47</p>
             <div className={styles.iconContainer}>
