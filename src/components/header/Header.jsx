@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { ChevronLeft, SupervisedUserCircle } from '@material-ui/icons';
+import { useHistory } from "react-router-dom";
+import { ChevronLeft, Settings, SupervisedUserCircle } from '@material-ui/icons';
 
-function Header() {
+function Header({ type }) {
+    const history = useHistory();
     return (
         <div className={styles.header}>
-            <ChevronLeft className={styles.arrowIcon} />
-            <SupervisedUserCircle className={styles.avatarIcon} />
+            {type == 'home'
+                ? <Settings className={styles.settingIcon} onClick={() => history.push('/setting')} />
+                : <ChevronLeft className={styles.arrowIcon} onClick={() => history.push('/')} />
+            }
+            <SupervisedUserCircle className={styles.avatarIcon} onClick={() => history.push('/setting')} />
         </div>
     )
 }

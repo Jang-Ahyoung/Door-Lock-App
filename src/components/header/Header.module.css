@@ -5,9 +5,17 @@
 }
 .arrowIcon {
   font-size: 40px !important;
-  cursor: pointer;
+  font-weight: 100;
 }
-
+.settingIcon {
+  font-size: 30px !important;
+}
 .avatarIcon {
   font-size: 26px !important;
+}
+
+.arrowIcon,
+.settingIcon,
+.avatarIcon {
+  cursor: pointer;
 }
