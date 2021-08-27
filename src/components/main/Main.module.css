@@ -24,7 +24,7 @@
 }
 
 .iconAnimation {
-  animation: iconRotate 0.7s;
+  animation: iconRotate 0.5s;
 }
 
 @keyframes iconRotate {
