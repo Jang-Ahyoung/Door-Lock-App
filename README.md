@@ -4,16 +4,17 @@
 ![issue bedge](https://img.shields.io/badge/yarn-v%201.22.10-yellow)
 
 - React & <b>PWA</b>(Progressive Web App)를 활용한 모바일 애플리케이션 프로젝트<br />
-- 👀 [Look at the page](https://secure-door-lock.netlify.app/) 
+-  URL ➥ [Look at the page](https://secure-door-lock.netlify.app/)
+
 
 ## 📜 Developer
- > [장아영 ( Jang-Ahyoung ) ](https://github.com/Jang-Ahyoung)
+ > 🎄👋 [장아영 ( Jang-Ahyoung ) ](https://github.com/Jang-Ahyoung)
 
 
-- <h3>Splash 스크린 & 아이콘</h3>
+- <h3>Splash 스크린 & 앱 아이콘</h3>
 <div>
-  <img src="https://user-images.githubusercontent.com/71692593/130714888-891d11fe-035a-4cb7-bf1b-ca6792c7314c.png" width=480px> </img>
-  <img src="https://user-images.githubusercontent.com/71692593/130782268-0fdbd5e5-2329-4dc3-b231-2700b44646af.png" width="480px" align=top> </img>
+  <img src="https://user-images.githubusercontent.com/71692593/130714888-891d11fe-035a-4cb7-bf1b-ca6792c7314c.png" width=49%> </img>
+  <img src="https://user-images.githubusercontent.com/71692593/130782268-0fdbd5e5-2329-4dc3-b231-2700b44646af.png" width=49% align=top> </img>
 </div>
 <br/>
 
