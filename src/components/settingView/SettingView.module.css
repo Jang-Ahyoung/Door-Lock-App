@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 25px 20px;
 }
 
 .settingTitle {
@@ -24,7 +24,7 @@
 }
 
 .settingType {
-  font-size: 18px;
+  font-size: max(2.5vw, 14px);
   letter-spacing: 1px;
   padding: 0px 1px 3.5px 1px;
   cursor: pointer;
