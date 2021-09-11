@@ -7,15 +7,15 @@ import DoorLockSetting from '../settingScreen/DoorLockSetting';
 import PasswordSetting from '../settingScreen/PasswordSetting';
 import Bottom from '../bottom/Bottom';
 
-function SettingView() {
+function SettingView({ type }) {
     const [seleted, setSeleted] = useState('basic');
     return (
         <div className={styles.container}>
             <div className={styles.TopBox}>
                 <Header type={"setting"} />
                 <p className={styles.settingTitle}>Settings</p>
-                <section>
-                    <ul className={styles.navbar}>
+                <section className={styles.menuSection}>
+                    <ul className={styles.menu}>
                         <li className={`${styles.settingType} ${seleted == 'basic' && styles.seleted}`} onClick={() => setSeleted('basic')}>기본 설정</li>
                         <li className={`${styles.settingType} ${seleted == 'visit' && styles.seleted}`} onClick={() => setSeleted('visit')}>출입 관리</li>
                         <li className={`${styles.settingType} ${seleted == 'doorlock' && styles.seleted}`} onClick={() => setSeleted('doorlock')}>도어락</li>
