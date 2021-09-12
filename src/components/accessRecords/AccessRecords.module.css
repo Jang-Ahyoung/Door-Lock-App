@@ -1,0 +1,53 @@
+.container {
+  padding: 0 10px;
+}
+.title {
+  padding: 0px 10px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.recordBox {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.date {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.record {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+.avatarSection {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.peopleInOut {
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  /* background-color: cadetblue; */
+}
+
+.peopleInOut > span {
+  /* background-color: cadetblue; */
+  /* font-weight: 600; */
+  text-align: center;
+  width: 40px;
+}
